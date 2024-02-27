@@ -4,6 +4,7 @@ import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:firebase_storage_service/service/storage_service.dart';
 import 'package:flutter/material.dart';
@@ -137,6 +138,9 @@ class _HomePageState extends State<HomePage> {
                                      ),
                                    ],
                                  ),
+                                 onTap: (){
+                                   //FirebaseCrashlytics.instance.crash();
+                                 },
                                ),
                              );
                           }
