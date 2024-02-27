@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "322332202116",
+    "project_id": "storageservice-e8d32",
+    "storage_bucket": "storageservice-e8d32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322332202116:android:69cebd5a568a347bdc9ed1",
+        "android_client_info": {
+          "package_name": "com.example.firebase_storage_service"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMaqq6Sn6oVtr7yW_CxqiD4CriUyuFZR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
